@@ -1,0 +1,81 @@
+#ico{
+	height:300px;
+	width:200px;
+}
+
+#product{
+	float:left;
+	width:200px;
+	margin:20px;
+	
+}
+
+#login{
+	width:100%;
+	position:absolute;
+}
+
+#choosedproduct{
+	float:right;
+	width:400px;
+}
+
+body {
+	margin:0;
+}
+
+
+#body{
+	padding:50px;
+	width:850px;
+	background-color:gray;
+	margin-top:4%;
+	box-shadow: 0 20px 20px rgba(0,0,0,1);
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+#header{
+	border-bottom:2px solid black;
+	background-color:rgba(255,255,255,0.3);
+	width:100%;
+	height:6%;
+	font-size:100%;
+	position:fixed;
+	top:0;
+	box-shadow: 0 20px 20px rgba(0,0,0,1);
+}
+
+.button {
+	margin-top:15;
+}
+
+.but {
+	color:white;
+	text-decoration:none;
+	text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */
+    color: white; /* Белый цвет текста */
+    font-size: 23px; /* Размер надписи */
+}
+
+.login{
+	font-size:20px; 
+	color:black;
+	margin-left:20px;
+	position:absolute;
+}
+
+#footer{
+	background-color:rgba(255,255,255,0.5);
+	color:rgba(0,0,0,0.5);
+	position:fixed;
+	bottom:0;
+	height:5%;
+	width:100%;
+	border-top:2px solid black;
+	box-shadow: 100px 0 0 rgb(0,0,0);
+}
+
